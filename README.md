@@ -5,13 +5,13 @@ This report covers only the first two phases: footprinting (using several Kali t
 ## Actions & Tools Used
 **alongside evidence collected**
 1. Ubuntu & Kali Linux operating systems
-2. whois (to find domain registration details like dates and server names)
-3. whatweb (to fingerprint web technologies)
-4. nslookup (resolves a domain name to its IP address)
-5. curl -I (reads HTTP response headers of the website)
-6. wafw00f (detects if a firewall protects the website)
-7. dnsrecon (enumerates DNS records)
-8. zenmap (scans the local subnet to find live hosts)
+2. whois (to find domain registration details like dates and server names) ![](whois.png)
+3. whatweb (to fingerprint web technologies) ![](whatweb.png)
+4. nslookup (resolves a domain name to its IP address) ![](nslookup.png)
+5. curl -I (reads HTTP response headers of the website) ![](curl.png)
+6. wafw00f (detects if a firewall protects the website) ![](waf.png)
+7. dnsrecon (enumerates DNS records) ![](recon.png)
+8. zenmap (scans the local subnet to find live hosts) ![](livehosts.png) ![](topology.png)
 9. Linux terminal (to identify IP & MAC addresses)
     using the ip neigh show {ip address} command
 
